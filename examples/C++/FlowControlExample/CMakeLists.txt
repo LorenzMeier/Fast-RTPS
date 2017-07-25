@@ -38,4 +38,4 @@ file(GLOB FLOWCONTROL_EXAMPLE_SOURCES_CPP "*.cpp")
 add_executable(FlowControlExample ${FLOWCONTROL_EXAMPLE_SOURCES_CXX} ${FLOWCONTROL_EXAMPLE_SOURCES_CPP})
 target_link_libraries(FlowControlExample fastrtps fastcdr)
 install(TARGETS FlowControlExample
-    RUNTIME DESTINATION examples/C++/FlowControlExample/${BIN_INSTALL_DIR})
+    RUNTIME DESTINATION share/examples/C++/FlowControlExample/${BIN_INSTALL_DIR})

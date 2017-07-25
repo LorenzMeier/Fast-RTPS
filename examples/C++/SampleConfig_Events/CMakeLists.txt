@@ -37,5 +37,5 @@ file(GLOB USECASEDEMONSTRATOR_EXAMPLE_SOURCES "*.cxx")
 add_executable(sampleconfig_events ${USECASEDEMONSTRATOR_EXAMPLE_SOURCES} sampleconfig_triggers.cpp)
 target_link_libraries(sampleconfig_events fastrtps fastcdr)
 install(TARGETS sampleconfig_events
-    RUNTIME DESTINATION examples/C++/UseCaseDemonstrator/${BIN_INSTALL_DIR}
+    RUNTIME DESTINATION share/examples/C++/UseCaseDemonstrator/${BIN_INSTALL_DIR}
     )

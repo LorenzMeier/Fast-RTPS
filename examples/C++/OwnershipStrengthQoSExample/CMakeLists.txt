@@ -37,5 +37,5 @@ file(GLOB OWNERSHIPSTRENGTH_EXAMPLE_SOURCES "*.cxx")
 add_executable(OwnershipStrengthQoSExample ${OWNERSHIPSTRENGTH_EXAMPLE_SOURCES})
 target_link_libraries(OwnershipStrengthQoSExample fastrtps fastcdr)
 install(TARGETS OwnershipStrengthQoSExample
-    RUNTIME DESTINATION examples/C++/OwnershipStrengthQoSExample/${BIN_INSTALL_DIR}
+    RUNTIME DESTINATION share/examples/C++/OwnershipStrengthQoSExample/${BIN_INSTALL_DIR}
     )

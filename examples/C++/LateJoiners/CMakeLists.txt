@@ -37,5 +37,5 @@ file(GLOB USECASEDEMONSTRATOR_EXAMPLE_SOURCES "*.cxx")
 add_executable(latejoiners ${USECASEDEMONSTRATOR_EXAMPLE_SOURCES} latejoiners.cpp)
 target_link_libraries(latejoiners fastrtps fastcdr)
 install(TARGETS latejoiners
-    RUNTIME DESTINATION examples/C++/UseCaseDemonstrator/${BIN_INSTALL_DIR}
+    RUNTIME DESTINATION share/examples/C++/UseCaseDemonstrator/${BIN_INSTALL_DIR}
     )

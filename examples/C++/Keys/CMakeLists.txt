@@ -37,5 +37,5 @@ file(GLOB USECASEDEMONSTRATOR_EXAMPLE_SOURCES "*.cxx")
 add_executable(keys ${USECASEDEMONSTRATOR_EXAMPLE_SOURCES} keys.cpp)
 target_link_libraries(keys fastrtps fastcdr)
 install(TARGETS keys
-    RUNTIME DESTINATION examples/C++/UseCaseDemonstrator/${BIN_INSTALL_DIR}
+    RUNTIME DESTINATION share/examples/C++/UseCaseDemonstrator/${BIN_INSTALL_DIR}
     )

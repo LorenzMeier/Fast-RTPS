@@ -39,7 +39,7 @@ add_executable(SecureHelloWorldExample ${HELLOWORLD_EXAMPLE_SOURCES_CXX} ${HELLO
 target_include_directories(SecureHelloWorldExample PRIVATE)
 target_link_libraries(SecureHelloWorldExample fastrtps fastcdr)
 install(TARGETS SecureHelloWorldExample
-    RUNTIME DESTINATION examples/C++/SecureHelloWorldExample/${BIN_INSTALL_DIR})
+    RUNTIME DESTINATION share/examples/C++/SecureHelloWorldExample/${BIN_INSTALL_DIR})
 
 add_custom_command(TARGET SecureHelloWorldExample POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_directory

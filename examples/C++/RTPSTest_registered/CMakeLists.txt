@@ -37,5 +37,5 @@ file(GLOB RTPSTESTREGISTERED_SOURCES "*.cpp")
 add_executable(RTPSTest_registered ${RTPSTESTREGISTERED_SOURCES})
 target_link_libraries(RTPSTest_registered fastrtps fastcdr)
 install(TARGETS RTPSTest_registered
-	RUNTIME DESTINATION examples/C++/RTPSTest_registered/${BIN_INSTALL_DIR}
+	RUNTIME DESTINATION share/examples/C++/RTPSTest_registered/${BIN_INSTALL_DIR}
     )

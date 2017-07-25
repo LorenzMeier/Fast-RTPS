@@ -37,5 +37,5 @@ file(GLOB RTPSTESTASSOCKET_SOURCES "*.cpp")
 add_executable(RTPSTest_as_socket ${RTPSTESTASSOCKET_SOURCES})
 target_link_libraries(RTPSTest_as_socket fastrtps fastcdr)
 install(TARGETS RTPSTest_as_socket
-	RUNTIME DESTINATION examples/C++/RTPSTest_as_socket/${BIN_INSTALL_DIR}
+	RUNTIME DESTINATION share/examples/C++/RTPSTest_as_socket/${BIN_INSTALL_DIR}
     )

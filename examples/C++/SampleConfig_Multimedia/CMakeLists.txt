@@ -37,5 +37,5 @@ file(GLOB USECASEDEMONSTRATOR_EXAMPLE_SOURCES "*.cxx")
 add_executable(sampleconfig_multimedia ${USECASEDEMONSTRATOR_EXAMPLE_SOURCES} sampleconfig_fastest.cpp)
 target_link_libraries(sampleconfig_multimedia fastrtps fastcdr)
 install(TARGETS sampleconfig_multimedia
-    RUNTIME DESTINATION examples/C++/UseCaseDemonstrator/${BIN_INSTALL_DIR}
+    RUNTIME DESTINATION share/examples/C++/UseCaseDemonstrator/${BIN_INSTALL_DIR}
     )

@@ -38,4 +38,4 @@ file(GLOB HELLOWORLD_EXAMPLE_SOURCES_CPP "*.cpp")
 add_executable(HelloWorldExample ${HELLOWORLD_EXAMPLE_SOURCES_CXX} ${HELLOWORLD_EXAMPLE_SOURCES_CPP})
 target_link_libraries(HelloWorldExample fastrtps fastcdr)
 install(TARGETS HelloWorldExample
-    RUNTIME DESTINATION examples/C++/HelloWorldExample/${BIN_INSTALL_DIR})
+    RUNTIME DESTINATION share/examples/C++/HelloWorldExample/${BIN_INSTALL_DIR})

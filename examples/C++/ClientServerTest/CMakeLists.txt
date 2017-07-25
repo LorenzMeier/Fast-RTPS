@@ -37,5 +37,5 @@ file(GLOB CLIENTSERVERTEST_SOURCES "*.cpp")
 add_executable(ClientServerTest ${CLIENTSERVERTEST_SOURCES})
 target_link_libraries(ClientServerTest fastrtps fastcdr)
 install(TARGETS ClientServerTest
-	RUNTIME DESTINATION examples/C++/ClientServerTest/${BIN_INSTALL_DIR}
+	RUNTIME DESTINATION share/examples/C++/ClientServerTest/${BIN_INSTALL_DIR}
     )

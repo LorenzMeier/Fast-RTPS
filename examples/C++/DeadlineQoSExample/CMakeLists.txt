@@ -60,5 +60,5 @@ if(UNIX)
 endif()
 
 install(TARGETS DeadlineQoSExample
-    RUNTIME DESTINATION examples/C++/DeadlineQoSExample/${BIN_INSTALL_DIR}
+    RUNTIME DESTINATION share/examples/C++/DeadlineQoSExample/${BIN_INSTALL_DIR}
     )

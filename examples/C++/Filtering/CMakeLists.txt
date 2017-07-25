@@ -37,5 +37,5 @@ file(GLOB DEADLINEQOS_EXAMPLE_SOURCES "*.cxx")
 add_executable(FilteringExample ${DEADLINEQOS_EXAMPLE_SOURCES})
 target_link_libraries(FilteringExample fastrtps fastcdr)
 install(TARGETS FilteringExample
-    RUNTIME DESTINATION examples/C++/FilteringExample/${BIN_INSTALL_DIR}
+    RUNTIME DESTINATION share/examples/C++/FilteringExample/${BIN_INSTALL_DIR}
     )

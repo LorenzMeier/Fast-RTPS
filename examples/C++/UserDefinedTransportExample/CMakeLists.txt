@@ -39,4 +39,4 @@ include_directories(${PROJECT_SOURCE_DIR}/../../../thirdparty/asio/asio/include)
 add_executable(UserDefinedTransportExample ${USERDEFINEDTRANSPORTEXAMPLE_SOURCES_HXX})
 target_link_libraries(UserDefinedTransportExample fastrtps fastcdr)
 install(TARGETS UserDefinedTransportExample
-	RUNTIME DESTINATION examples/C++/UserDefinedTransportExample/${BIN_INSTALL_DIR})
+	RUNTIME DESTINATION share/examples/C++/UserDefinedTransportExample/${BIN_INSTALL_DIR})

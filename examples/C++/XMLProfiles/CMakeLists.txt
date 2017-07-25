@@ -41,4 +41,4 @@ file(COPY ${PROJECT_SOURCE_DIR}/XMLProfilesExample.xml
 add_executable(XMLProfiles ${XMLPROFILESEXAMPLE_SOURCES_CXX} ${XMLPROFILESEXAMPLE_SOURCES_CPP})
 target_link_libraries(XMLProfiles fastrtps fastcdr)
 install(TARGETS XMLProfiles
-    RUNTIME DESTINATION examples/C++/XMLProfilesExample/${BIN_INSTALL_DIR})
+    RUNTIME DESTINATION share/examples/C++/XMLProfilesExample/${BIN_INSTALL_DIR})
